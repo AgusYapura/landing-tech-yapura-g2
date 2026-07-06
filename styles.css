@@ -17,6 +17,7 @@ body{
 
 }
 .logo{
+    margin-left: 7px;
     margin-top: 15px;
 }
 .opciones{
@@ -24,6 +25,7 @@ body{
     margin-top: 15px;
 }
 .banner-principal{
+    margin-left: 7px;
     width: 1250px;
     height: 500px;
     background-color: rgb(217, 231, 231);
@@ -86,10 +88,16 @@ body{
     background-color: rgb(0, 0, 0);
     color: var(--secondary);
 }
+.btn-view{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
 .product-contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 7px;
 }
 .product-card{
     display: grid;
@@ -99,13 +107,15 @@ body{
     margin-right: 15px;
     width: 200px;
     height: 300px;
-    background-color: rgb(243, 241, 238);
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
+    border: 2px solid black;
 }
 .beneficio-contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 7px;
 }
 .beneficio-card{
     display: grid;
@@ -122,6 +132,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 7px;
 }
 .opiniones-card{
     display: grid;
@@ -167,4 +178,8 @@ body{
     border-radius: 25px;
     color: var(--primary);
     background-color: rgb(219, 233, 228);
+}
+.entre {
+    display: flex;
+    justify-content: center;
 }
